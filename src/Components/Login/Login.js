@@ -32,13 +32,17 @@ const Login = () => {
             });
     }
     return (
-        <div className='google_SingIn'>
-           <div className="google_SingIn_content">
-                <h1>Login With</h1>
-                <button onClick={handleGoogleSignIn}>Google Sign in</button>
-                <p>Don’t have an account? <Link>Create an account</Link></p>
-           </div>
+      <div className="container">
+        <div className="google_SingIn">
+          <div className="google_SingIn_content">
+            <h1>Login With</h1>
+            <button onClick={handleGoogleSignIn}>Google Sign in</button>
+            <p>
+              Don’t have an account? <Link>Create an account</Link>
+            </p>
+          </div>
         </div>
+      </div>
     );
 };
 

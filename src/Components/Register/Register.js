@@ -24,7 +24,7 @@ const Register = () => {
 
     const onSubmit = (data) => {
         const orderDetails = { ...loggedInUser, ...selected}
-        fetch('http://localhost:4000/addWork', {
+        fetch('https://polar-fjord-55938.herokuapp.com/addWork', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(orderDetails)
@@ -38,7 +38,7 @@ const Register = () => {
     return (
       
             
-        <>
+        <div className="container">
             <from >
                 <div className="ship_from">
                     < input name="name" defaultValue={loggedInUser.name} ref={register({ required: true })} placeholder="Your Name" />
@@ -57,11 +57,11 @@ const Register = () => {
                     < input name="country" ref={register({ required: true })} placeholder='Your Country Name' />
                     {errors.country && <span className="error">Country Name is required</span>}
 
-                    <Link to='/events'><input onClick={onSubmit} type="submit" /></Link>
+                    <Link to='/events'><input className="fromSubmit" onClick={onSubmit} type="submit" /></Link>
                 </div>
             </from>
             
-        </>
+        </div>
     );
 };
 

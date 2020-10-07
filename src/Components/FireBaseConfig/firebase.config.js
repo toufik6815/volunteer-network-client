@@ -1,10 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBTv1p4oFj66yheUGamUdPp9boYX3Sa2Qw",
-  authDomain: "social-work-ffcf8.firebaseapp.com",
-  databaseURL: "https://social-work-ffcf8.firebaseio.com",
-  projectId: "social-work-ffcf8",
-  storageBucket: "social-work-ffcf8.appspot.com",
-  messagingSenderId: "874213127279",
-  appId: "1:874213127279:web:e8b80c441e27edf0a1c99a"
+  apiKey: "AIzaSyDwq1PR2IRdZz9UFCKVTepN0Jit_YZOcgg",
+  authDomain: "volunteer-network-news24.firebaseapp.com",
+  databaseURL: "https://volunteer-network-news24.firebaseio.com",
+  projectId: "volunteer-network-news24",
+  storageBucket: "volunteer-network-news24.appspot.com",
+  messagingSenderId: "124504814892",
+  appId: "1:124504814892:web:ca38b944be334411662889",
 };
+
 export default firebaseConfig;

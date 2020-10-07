@@ -5,7 +5,7 @@ const Admin = () => {
     const [admins, setAdmins] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/createWork')
+        fetch('https://polar-fjord-55938.herokuapp.com/createWork')
             .then(res => res.json())
             .then(data => setAdmins(data));
     }, [])

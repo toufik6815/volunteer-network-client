@@ -2,22 +2,24 @@
     position: absolute;
     width: 570px;
     height: 591px;
-    left: 435px;
-    top: 130px;
-
+    margin: 100px 250px;
     background: #FFFFFF;
-    border: 1px solid #ABABAB;
+    box-shadow: 18px 10px 18px 40px #e8e5e5;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 .ship_from input{
     width: 470px;
     height: 50px;
-    margin: 30px 50px;
+    margin: 40px 50px;
     padding: 10px;
     border-radius: 50px;
     display: block;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #ede9e9;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -26,4 +28,17 @@
 
 .ship_from a{
     text-decoration: none;
+}
+
+.fromSubmit{
+    background: none;
+    font-weight: bold;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.fromSubmit:hover{
+    background: orange;
 }

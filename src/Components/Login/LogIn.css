@@ -2,9 +2,8 @@
     position: absolute;
     width: 570px;
     height: 457px;
-    left: 435px;
-    top: 171px;
-
+    margin: 100px 250px;
+    display: block;
     background: #FFFFFF;
     border: 1px solid #ABABAB;
     box-sizing: border-box;
